@@ -79,6 +79,7 @@ function tulane_testimonial_content_type_field_default_field_instances() {
     ),
   );
 
+<<<<<<< HEAD
   // Exported field_instance: 'node-testimonial-field_first_name'
   $field_instances['node-testimonial-field_first_name'] = array(
     'bundle' => 'testimonial',
@@ -359,6 +360,8 @@ function tulane_testimonial_content_type_field_default_field_instances() {
     ),
   );
 
+=======
+>>>>>>> 39e1f9386b5897b59bdd0d1817054aa763ef3c2a
   // Exported field_instance: 'node-testimonial-field_organizations_ref'
   $field_instances['node-testimonial-field_organizations_ref'] = array(
     'bundle' => 'testimonial',
@@ -417,6 +420,7 @@ function tulane_testimonial_content_type_field_default_field_instances() {
     ),
   );
 
+<<<<<<< HEAD
   // Exported field_instance: 'node-testimonial-field_position_title'
   $field_instances['node-testimonial-field_position_title'] = array(
     'bundle' => 'testimonial',
@@ -619,6 +623,11 @@ function tulane_testimonial_content_type_field_default_field_instances() {
   t('Position Title');
   t('Quote');
   t('image');
+=======
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('Body');
+>>>>>>> 39e1f9386b5897b59bdd0d1817054aa763ef3c2a
   t('organizations');
 
   return $field_instances;
